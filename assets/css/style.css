@@ -133,7 +133,25 @@ box-shadow: 0 0 1rem var(--main-color);
  border-radius: 4rem;
  box-shadow:0 0 1rem var(--main-color);
  font-size: 1.6rem;
- color: var(--second-bg-color);
+ color: white;
  letter-spacing: .1rem;
  font-weight: 600;
 }
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
