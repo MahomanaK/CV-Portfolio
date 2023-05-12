@@ -473,8 +473,6 @@ box-shadow: 0 0 1rem var(--main-color);
  flex-direction: column;
  text-align: center;
  padding: 0 4rem;
- transform: translateY(100%);
- transition: .5s ease;
 }
 
 .testimonial-box:hover .testimonial-layer {
