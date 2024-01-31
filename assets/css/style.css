@@ -382,7 +382,7 @@ box-shadow: 0 0 1rem var(--main-color);
    }
 
   .work-heading {
-    padding-left: 13%;
+    padding-left: 3%;
      font-size: 4rem;
  }
 
@@ -509,7 +509,7 @@ box-shadow: 0 0 1rem var(--main-color);
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 2rem 9%;
+    padding: 2rem 25%;
     background: var(--second-bg-color);
 }
 
